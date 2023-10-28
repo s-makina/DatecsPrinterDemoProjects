@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FileSelector</string>
+    <string name="cannotSaveFileMessage">Cannot save file(s)</string>
+    <string name="filesNotSaved">File(s) NOT saved</string>
+    <string name="fileNameFirstMessage">Please enter the file name first</string>
+    <string name="loadButtonText">Load</string>
+    <string name="selectButtonText">Select</string>
+    <string name="accessDenied">Access denied</string>
+    <string name="missingFile">No such file</string>
+    <string name="newFolderButtonText">New folder</string>
+    <string name="newFolderDialogMessage">Create new folder</string>
+    <string name="createButtonText">Create</string>
+    <string name="folderCreationOk">Folder created sucessfully</string>
+    <string name="folderCreationError">Error while creating folder</string>
+    <string name="information">Information</string>
+    <string name="title_sale_mode">Sale mode...</string>
+    <string name="title_item_edit">Edit item</string>
+    <string name="enterFileName">Enter File name</string>
+    <string name="saveButtonText">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="okButtonText">OK</string>
+
+
+</resources>

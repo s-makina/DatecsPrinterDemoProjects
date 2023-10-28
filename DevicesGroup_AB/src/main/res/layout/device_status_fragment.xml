@@ -1,0 +1,51 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data class="com.datecs.testApp.ListDeviceStatusFrgBinding">
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="@string/language"
+                android:textAlignment="textEnd" />
+
+            <Spinner
+                android:id="@+id/sp_LanguageChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:entries="@array/array_languages" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/critical_marked_in_red" />
+
+        <ListView
+            android:id="@+id/lv_device_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="2dp" />
+
+
+    </LinearLayout>
+</layout>

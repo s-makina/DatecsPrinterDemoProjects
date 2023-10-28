@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/csv_import_plu"
+        android:title="@string/import_items" />
+    <item
+        android:id="@+id/csv_export_plu"
+        android:title="@string/export_items" />
+</menu>

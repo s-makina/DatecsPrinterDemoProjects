@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DevicesGroup_AB/src/main/java/com/datecs/demo/ui/main/CommandFragment.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/FiscalDeviceV1.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/FiscalPrinterV1.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/DP05_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/DP150_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/DP15_BGR.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/DP25_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/DP35_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/FMP10_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/FP2000_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/FP550_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/FP650_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/FP700_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/FP800_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/SK1_21F_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/SK1_31F_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/BGR/WP50_BGR.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/fiscalprinter/SDK/model/UserLayerV1/cmdEJournal.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/fiscalprinterSDK/src/main/java/com/datecs/util/RegExpr.java" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

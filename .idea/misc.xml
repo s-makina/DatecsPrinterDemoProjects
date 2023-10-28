@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SOFTWARE_DEPARTMENT/PROJECTS/Bulgaria/Java/fiscalPrinterSDK/DemoProjects/DevicesGroup_AB/src/main/res/layout/fisc_period_frag.xml" value="0.25" />
+        <entry key="..\:/SOFTWARE_DEPARTMENT/PROJECTS/Bulgaria/Java/fiscalPrinterSDK/DemoProjects/DevicesGroup_C/src/main/res/layout/ej_struct_fragment.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../Doc" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/../out" />
+  </component>
+</project>

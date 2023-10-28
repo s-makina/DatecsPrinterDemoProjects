@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnu_add_plu"
+        android:title="@string/add_item" />
+    <item
+        android:id="@+id/mnu_read_all"
+        android:title="@string/read_all" />
+    <item
+        android:id="@+id/mnu_read_items_range"
+        android:title="@string/read_range" />
+    <item
+        android:id="@+id/mnu_write_all"
+        android:title="@string/send_items" />
+
+    <item
+        android:id="@+id/mnu_delete"
+        android:title="@string/delete_range" />
+    <item
+        android:id="@+id/mnu_clear_table"
+        android:title="@string/clear_table" />
+
+</menu>

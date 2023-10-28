@@ -1,0 +1,454 @@
+<!--
+  ~ @author Datecs Ltd. Software Department
+  -->
+
+<resources>
+    <string name="app_name">DevicesGroup_AB</string>
+    <string name="settings_saved">Settings is saved...</string>
+    <string name="edit_depart_name">Edit name of department:</string>
+    <string name="print_contrast">Print contrast:</string>
+    <string name="print_barcode">Print barcode</string>
+    <string name="print_logo">Print logo</string>
+    <string name="print_sum_in_alternative_currency">Print sum in alternative currency</string>
+    <string name="non_fiscal_receipt">Non Fiscal Receipt</string>
+    <string name="z_report">Z Report</string>
+    <string name="data_time_set">Set Date Time</string>
+    <string name="action_add_network_connection">Add network connection</string>
+    <string name="msg_please_wait">Please, wait&#8230;</string>
+    <string name="title_write_items">Writing Items</string>
+    <string name="title_reading_items">Reading Items</string>
+    <string name="msg_header_saved">Header lines is saved...</string>
+    <string name="msg_footer_saved">Footer lines is saved...</string>
+    <string name="msg_lan_saved">Network setings is saved...</string>
+    <string name="title_loading_logo">Uploading Logo</string>
+    <string name="title_downloading_logo">Reading Logo</string>
+    <string name="title_printing_documents_by_num">Printing documents by numbers</string>
+    <string name="title_printing_documents_by_dat">Printing documents by date</string>
+    <string name="title_reading_documents_by_num">Reading documents by numbers</string>
+    <string name="title_reading_documents_by_dat">Reading documents by date</string>
+    <string name="msg_doc_received">Received documents count: </string>
+    <string name="msg_lines_received">Received EJ lines: </string>
+    <string name="msg_doc_printed">Printed documents done. </string>
+    <string name="msg_connect_to_device">Connecting to device...</string>
+    <string name="title_restarting">Restarting fiscal device</string>
+    <string name="msg_q_restart_device">To take effect you must restart the fiscal device.</string>
+    <string name="msg_q_exit">Are you sure you want exit?</string>
+    <string name="msg_delete_all">Attention!!!\nItems will be deleted.\n Restoring will not be possible!</string>
+    <string name="price">Price</string>
+    <string name="qty">QTY</string>
+    <string name="vat">VAT</string>
+    <string name="title_disc_surch">Discount Surcharge</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="title_percent">%</string>
+    <string name="title_abs">Sum</string>
+    <string name="okButtonText">OK</string>
+    <string name="subtotal">SUBTOTAL</string>
+    <string name="total">TOTAL</string>
+    <string name="add_sale">Add</string>
+    <string name="print">Print Free Text</string>
+    <string name="line1">Description</string>
+    <string name="test_sales">Test Sale</string>
+    <string name="header_footer"><![CDATA[Header&Footer]]></string>
+    <string name="_0_00">0.00</string>
+    <string name="_0_01">0.01</string>
+    <string name="_0_001">0.001</string>
+    <string name="a">A</string>
+    <string name="_percent">%</string>
+    <string name="b">B</string>
+    <string name="d">D</string>
+    <string name="c">C</string>
+    <string name="e">E</string>
+    <string name="local">Local:</string>
+    <string name="foreign">Foreign:</string>
+    <string name="exchange_rate">Exchange rate:</string>
+    <string name="read_from_device">Read from device</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_10">10</string>
+    <string name="cancel">Cancel</string>
+    <string name="footer">Footer</string>
+    <string name="remaining_changes">Remaining changes:</string>
+    <string name="save_configuration">Save configuration</string>
+    <string-array name="array_TaxCode">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="array_TaxCodeCyr">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ж</item>
+        <item>З</item>
+    </string-array>
+    <string-array name="array_BarcodeType">
+        <item>EAN8 barcode</item>
+        <item>EAN13 barcode</item>
+        <item>Code128 barcode</item>
+        <item>QR code</item>
+    </string-array>
+
+    <string-array name="array_payment_type">
+
+        <item>P - Cash Payment </item>
+        <item>N - Credit payment </item>
+        <item>C - Check Payments </item>
+        <item>D - Debit Card Payment </item>
+        <item>I - Programmable payment type 1 </item>
+        <item>J - Programmable Payment Type 2 </item>
+        <item>K - Programmable payment type 3 </item>
+        <item>L - Programmable payment type 4 </item>
+        <item>I - Programmable payment type 1 </item>
+        <item>J - Programmable payment type 2 </item>
+        <item>K - Programmable payment type 3 </item>
+        <item>L - Programmable payment type 4 </item>
+        <item>M - Coupons </item>
+        <item>N - External coupons </item>
+        <item>O - Packaging </item>
+        <item>P - Internal service</item>
+        <item>Q - Damage </item>
+        <item>R - Bank transfers </item>
+        <item>S - With check </item>
+
+    </string-array>
+
+    <string name="name">Name</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="set_footer">Set Footer</string>
+    <string name="header">Header</string>
+    <string name="set_header">Set Header</string>
+    <string name="starting_datetime">Date Time</string>
+    <string name="document_type">Document Type</string>
+    <string name="ending_datetime">End Data Time</string>
+    <string name="by_document_number">By Doc Number</string>
+    <string name="by_z_report_number">By Z report Number</string>
+    <string name="in_Z_number">In Z Report Number</string>
+    <string name="from_number">From</string>
+    <string name="to_number">To</string>
+    <string name="from_z_report">From Z report</string>
+    <string name="to_z_report">To Z report</string>
+    <string name="print_document">Print</string>
+    <string name="uploading_ok">Uploading Done...</string>
+    <string name="configuration_saved_">Configuration is saved...</string>
+    <string name="msg_wrong_stamp">Please use stamp filename in format 8.3 (example: stamp123.bmp)</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="set_vats">Set VAT Rates</string>
+    <string name="h">H</string>
+    <string name="data_time_is_set">Data and time is set to device</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="fm_reports">Print FM reports</string>
+    <string name="to_plu_number">To PLU</string>
+    <string name="from_plu_number">From PLU</string>
+    <string name="clear_registers">Clear Operatror Registers</string>
+    <string name="operator_report">Report By Operator</string>
+    <string name="plu_report">Report By Items</string>
+    <string name="from_operator">From Operator</string>
+    <string name="to_operator">To Operator</string>
+    <string name="storno">Storno</string>
+    <string name="ex_storno">Extended Storno</string>
+    <string name="password">Password</string>
+
+    <string-array name="array_languages">
+        <item>English</item>
+        <item>Bulgarian</item>
+    </string-array>
+    <string-array name="array_daily_info">
+        <item>Payments</item>
+        <item>Number and sum of sells</item>
+        <item>Discounts and surcharges</item>
+        <item>Corrections and annulled receipts</item>
+        <item>Cash in and cash out operations</item>
+    </string-array>
+    <string-array name="array_operators">
+        <item>Operator 1</item>
+        <item>Operator 2</item>
+        <item>Operator 3</item>
+        <item>Operator 4</item>
+        <item>Operator 5</item>
+        <item>Operator 6</item>
+        <item>Operator 7</item>
+        <item>Operator 8</item>
+        <item>Operator 9</item>
+        <item>Operator 10</item>
+        <item>Operator 11</item>
+        <item>Operator 12</item>
+        <item>Operator 13</item>
+        <item>Operator 14</item>
+        <item>Operator 15</item>
+        <item>Operator 16</item>
+    </string-array>
+
+    <string-array name="array_ej_reports_fp">
+        <item> All document types.</item>        
+        <item> Fiscal (customer) receipt.</item>        
+        <item> Storno (customer) receipt.</item>        
+        <item> Canceled (customer) receipt.</item>        
+        <item> Non fiscal receipt.</item>        
+        <item> Cash-in receipt.</item>        
+        <item> Cahs-out receipt.</item>     
+        <item> Service receipt with 90 degree rotated printing.</item>       
+        <item> Service operation receipt.</item>      
+        <item> Reports (date/time only and receipt number) </item>       
+        <item> X-reports. </item>        
+        <item> Z-reports </item>
+    </string-array>
+
+    <string-array name="array_ej_reports_ecr">
+        <item> All document types</item>        
+        <item> Fiscal (customer) receipts</item>        
+        <item> Z-reports </item>
+        <item> Cash-In </item>
+        <item> Cash-Out</item>        
+         <item> X-reports</item>        
+        <item> Non fiscal receipts</item>        
+        <item> Invoice receipts</item>        
+        <item> Fiscal (STORNO) receipts</item>        
+        <item> Invoice (STORNO) receipts</item>        
+    </string-array>
+    <string-array name="array_PrintContrast">
+        <item>Very pale </item>        
+        <item>Pale </item>        
+        <item>Normal</item>        
+        <item>Dense </item>        
+        <item>Very dense</item>
+    </string-array>
+    <string-array name="array_PrinterFont">
+        <item>4mm higher letters</item>        
+        <item>4mm normal letters</item>        
+        <item>3 mm height</item>        
+    </string-array>
+    <string-array name="array_vats">
+        <item>Enabled</item>
+        <item>Disabled</item>
+    </string-array>
+    <string-array name="array_fm_reports_type">
+        <item>Short report</item>
+        <item>Detailed report</item>
+    </string-array>
+    <string-array name="array_fm_reports_kind">
+        <item>Report by Date</item>
+        <item>Report by Number</item>
+    </string-array>
+
+
+    <string-array name="array_other_reports">
+        <item>Turnovers detailed</item>
+        <item>Turnovers summary</item>
+        <item>Turnovers with clearing detailed</item>
+        <item>Turnovers with clearing summary</item>
+        <item>PLU parameters</item>
+    </string-array>
+    <string-array name="array_other_reports_kind">
+        <item>Report by Items</item>
+        <item>Report by Operatrors</item>
+
+    </string-array>
+    <string-array name="plu_report_type">
+        <item>PLU turnovers</item>
+        <item>PLU turnovers with clearing</item>
+        <item>PLU parameters</item>
+        <item>PLU stock</item>
+    </string-array>
+
+    <string-array name="array_storno_type_bg">
+        <item>Oператорска грешка</item>
+        <item>Връщане/Замяна</item>
+        <item>Намаление на данъчната основа</item>
+    </string-array>
+    <string-array name="array_storno_type">
+        <item>Operator error</item>
+        <item>Return/Claim</item>
+        <item>tax base reduction</item>
+
+    </string-array>
+    <string-array name="array_1_15">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="array_rec_type">
+        <item>simplified</item>
+        <item>extended</item>
+    </string-array>
+
+    <string name="auto_power_off_min">Auto-power off (min):</string>
+    <string name="light_auto_off_min">Light auto-off (min):</string>
+    <string name="on_z_report_auto_clear_plu_turnovers">On Z report auto-clear PLU turnovers</string>
+    <string name="midnight_warning_for_z_report">Midnight warning for Z report</string>
+    <string name="related_ecr_report">Related ECR report</string>
+    <string name="related_report_on_operators">Related report on operators</string>
+    <string name="related_report_on_articles">Related report on articles</string>
+    <string name="related_report_on_departments">Related report on departments</string>
+    <string name="related_report_on_stock_group">Related report on stock group</string>
+    <string name="related_log_report">Related log report</string>
+    <string name="operator_id">Operator ID</string>
+    <string name="old_password">Old Password</string>
+    <string name="operator_name">Operator name</string>
+    <string name="new_password">New password</string>
+    <string name="save_to_device">Save to Device</string>
+    <string name="department">Department</string>
+    <string name="departments_is_saved">Departament saved</string>
+    <string name="requires_service_jumper_or_service_password">Requires service jumper or service password.</string>
+    <string name="modem">Modem</string>
+    <string name="wifi">WiFi</string>
+    <string name="ip">IP:</string>
+    <string name="dns_1">DNS 1:</string>
+    <string name="mask">Mask:</string>
+    <string name="dns_2">DNS 2:</string>
+    <string name="gateway">Gateway:</string>
+    <string name="mac">MAC:</string>
+    <string name="port">Port:</string>
+    <string name="dhcp">DHCP</string>
+    <string name="lan">LAN</string>
+    <string name="type_of_information">Type of information</string>
+    <string name="unit_name">Unit name</string>
+    <string name="print_items_count">Print items count</string>
+    <string name="empty_line_after_total">Empty line after total</string>
+    <string name="double_height_for_total">Double height for total</string>
+    <string name="bold_payments">Bold payments</string>
+    <string name="save_item">Save Item</string>
+    <string name="delete_item_by_eik">Delete Item by EIK</string>
+    <string name="delete_item_by_plu">Delete Item by PLU</string>
+    <string name="delete_all">Delete All Items </string>
+    <string name="read_item_by_eik">Read Item by EIK</string>
+    <string name="read_item_by_plu">Read Item by PLU</string>
+    <string name="new_item">Find empty item</string>
+    <string name="price_type">Price Type</string>
+    <string name="stock_qty">Stock QTY</string>
+    <string name="sold_qty">Sold QTY</string>
+    <string name="dept">Dept</string>
+    <string name="stock_group">Group</string>
+    <string name="itemid">ItemID</string>
+    <string name="measure_unit">Measure Unit</string>
+    <string name="action_about">About Demo</string>
+    <string name="panic_operation">Panic Operation</string>
+    <string name="fiscal_receipt">Fiscal Receipt</string>
+    <string name="fiscal_rec_cancel">Cancel Fiscal Receipt</string>
+    <string name="fiscal_rec_card">Fiscal Receipt (Card Payment)</string>
+    <string name="x_report">X Report</string>
+    <string name="msg_please_select_device">Please, select a device from list</string>
+    <string name="item">Item 1</string>
+    <string name="find_device_item">Find device item</string>
+    <string name="turnover">Turnover</string>
+    <string name="print_exchange_rate">Print exchange rate</string>
+    <string name="cfgstamp_bmp">cfgStamp.bmp</string>
+    <string name="print_stamp">Print stamp</string>
+    <string name="download_logo">Download Logo...</string>
+    <string name="upload_logo">Upload  Logo...</string>
+    <string name="stamp_name">Stamp_name</string>
+    <string name="doc_unp">Document UNP</string>
+    <string name="msg_not_found">Not found</string>
+    <string name="close_all">Close Receipt</string>
+    <string name="cancel_all">Cancel Receipt</string>
+
+    <string name="test_ex_sale">Extended Sale</string>
+    <string name="msg_cannot_cancel_receipt">Cannot cancel receipt, payment has already started.</string>
+    <string name="msg_q_want_pay_sum">Do you want to pay the owed sum:</string>
+    <string name="msg_and_close_it">__and close it?</string>
+    <string name="ej_is_valid">EJ is valid !</string>
+    <string name="ej_is_not_valid">EJ is NOT valid</string>
+    <string name="еnglish">English</string>
+    <string name="bulgarian">Български</string>
+    <string name="language">Language</string>
+    <string name="test_receipt_dst">;FISACAL SALE TEST\n48,1,1,%s-0001-0000001,1\n49,	Б0.01\n53,Тотал:	P0.01\n56\n</string>
+    <string name="critical_marked_in_red">All critical status bits are marked in red</string>
+    <string name="cash_in_out">Cash In/Out</string>
+    <string name="stockqty">QTY</string>
+    <string name="munit">Unit</string>
+    <string name="plu">PLU</string>
+    <string name="soldqty">SoldQTY</string>
+    <string name="title_menage_items">Device Items</string>
+    <string name="title_export_items">Export Import</string>
+    <string name="import_items">Import Items</string>
+    <string name="export_items">Export items</string>
+    <string name="clear_table">Clear Table</string>
+    <string name="read_all">Read All</string>
+    <string name="read_range">Read Range</string>
+    <string name="send_items">Save to Device</string>
+    <string name="delete_range">Delete Items</string>
+    <string name="title_item_selected">Item(s) is selected</string>
+    <string name="delete_selected">Delete selected ?</string>
+    <string name="item_added">Item Added</string>
+    <string name="msg_item_saved">Item is saved</string>
+    <string name="msg_item_deleted">Items was deleted</string>
+    <string name="msg_q_item_overwrite">All device items will be overwritten with table items!\nAre you sure you want to overwrite?</string>
+    <string name="title_load_items">Load Items</string>
+    <string name="title_export">Export</string>
+    <string name="msg_item_not_found">Item(s) not found !</string>
+    <string name="title_delete_items">Delete Item(s)</string>
+    <string name="range">Range</string>
+    <string name="delete">Delete</string>
+    <string name="msg_item_was_found">Item was found</string>
+    <string name="new_item_with_plu">New with PLU: </string>
+    <string name="msg_q_remove_item">Remove Item:</string>
+    <string name="add_item">Add New</string>
+    <string name="number">N</string>
+    <string name="invoice">Invoice</string>
+    <string name="seller_name">Seller name</string>
+    <string name="accountable_person">Accountable Person</string>
+    <string name="msg_file_saved">File(s) is saved OK</string>
+    <string name="msg_remove_client">Delete this client:</string>
+    <string name="find_by_eik">Search by EIK</string>
+
+    <string-array name="array_price_type">
+        <item>fixed price</item>
+        <item>free price</item>
+        <item>max price</item>
+    </string-array>
+
+    <string-array name="array_decimals">
+        <item>0000</item>
+        <item>00.00</item>
+    </string-array>
+    <string-array name="array_type_taxn">
+        <item>EIK(bulstat)</item>
+        <item>EGN</item>
+        <item>LNCH</item>
+        <item>Service number</item>
+    </string-array>
+    <string-array name="array_fisc_period_info">
+        <item>Information on the active tax rates for the Z-report.</item>
+        <item>Information on the sales for the specified record or period</item>
+        <item>Information on the net amounts for the specified record or period.</item>
+        <item>Information on the VAT assessed for the specified record or period.</item>
+        <item>Additional information on the specified record.</item>
+        <item>Information on the specified fiscal memory record used to set tax rates.</item>
+        <item>Information on the specified FM record with RAM reset</item>
+        <item>Information on the amounts by payment type for the specified record or period.</item>
+        <item>Information on the amounts by payment type for the specified record or period.</item>
+        <item>Information on the total sales and VAT before the specified Z-report.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>
